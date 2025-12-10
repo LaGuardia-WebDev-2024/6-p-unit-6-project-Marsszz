@@ -1,16 +1,13 @@
 body {
-   background-image: linear-gradient(
-    to right, /* or 'to bottom' for horizontal stripes, or an angle like 45deg */
-    #DAA928 0%, /* Red starts at 0% */
-    #FB8931 25%, /* Red ends at 25% */
-    #E7541E 35%, /* Blue starts at 25% */
-    #509844 50%, /* Blue ends at 50% */
-    #D03499 60%, /* Green starts at 50% */
-    #1E7BC9 75%, /* Green ends at 75% */
-    #B121B6 85%, /* Yellow starts at 75% */
-    #DD133B 100% /* Yellow ends at 100% */
-  );
+   background-image:url(https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEz3C8nKIApACq5AE9A9sAAvAeiXsNfiWgaBSi~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEARCH&sc=image&se=false&x-expires=1767924000&x-signature=h87GRFUujOd3%2BlZV%2FlnQOwM4ROk%3D);
+   background-size:cover;
+   cursor: url('https://icon2.cleanpng.com/lnd/20250214/kx/13c1326efa4ca20d1039c7d7bf21e4.webp'), auto;
 }
+a, button {
+  cursor: url('https://icon2.cleanpng.com/lnd/20250214/kx/13c1326efa4ca20d1039c7d7bf21e4.webp'), pointer;
+}
+
+
 
 html{
   height: 100%;
@@ -25,7 +22,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color:rgba(255, 255, 255, 0.5);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 60px;
